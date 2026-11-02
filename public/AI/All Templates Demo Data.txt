@@ -1,0 +1,58 @@
+
+
+All Templates 
+Template Name : Summarize Text 
+Template Description: Summarize any text in a short and easy to understand concise way
+Field Name: What would you like to summarize?
+Field Placeholder: Enter Your Text To Summarize 
+Icon : icon ni ni-bulb-fill
+Prompt: In {language}, summarize the text provided in the {What_would_you_like_to_summarize?} input field into a concise {result_length}-word summary.
+ Focus on the main ideas and key points, omitting minor details. Ensure the tone is neutral and professional.
+
+
+Template Name : Article Generator
+Template Description: Turn a title and outline text into a fully complete high quality article within seconds
+Field Name: Article Title?
+Field Placeholder: Amazing Cuisine culture of USA
+Icon : icon ni ni-list-thumb-fill
+Prompt: write a {result_length}-word article with an introduction, 3 main sections, and a conclusion based on the topic provided in the {Article_Title} input field. Use a professional tone, include relevant details, and structure the content with headings for each section.
+ Ensure the content aligns closely with the given title
+
+Template Name : Grammar Checker
+Template Description: Make sure that there are no errors in your content
+Field Name: Include your text here to check 
+Field Placeholder: text here to check
+Icon : icon ni ni-pen-fill
+Prompt: In {language}, review the text provided in the {Include_your_text_here_to_check} input field for grammatical errors, punctuation issues, and style improvements.
+ Provide a corrected version of the text along with a
+ {result_length}-word explanation of the changes made, highlighting improvements in grammar, syntax, and clarity.
+
+Template Name : Paragraph Generator
+Template Description: Generate paragraphs about any topic including a keyword and in a specific tone of voice
+Field Name: Paragraph Description
+Field Placeholder: Provide details of what you want to write about..
+Icon : icon ni ni-file-text-fill
+Prompt: In {language}, generate a {result_length}-word paragraph based on the topic or keyword provided in the {Paragraph_Description} input field. 
+Use a natural flow, include supporting details, and maintain a professional tone. Ensure the content is relevant to the given topic.
+
+ 
+
+Template Name : Blog Ideas
+Template Description: The perfect tool to start writing great articles. Generate creative ideas for your next post
+Field Name: Blog Ideas
+Field Placeholder: best places to visit in Spain
+Icon : icon ni ni-spark-fill
+Prompt: In {language}, provide {result_length} unique blog post ideas based on the niche or topic provided in the {Blog_Ideas} input field. 
+Each idea should include a brief {result_length/5}-word description outlining the potential content and target audience.
+ Ensure the ideas are original and tailored to the given niche.
+
+
+
+Template Name : Blog Titles
+Template Description: Nobody wants to read boring blog titles, generate catchy blog titles with this tool
+Field Name: Blog Titles
+Field Placeholder: Describe your blog post..
+Icon : icon ni ni-flag-fill
+Prompt: In {language}, generate {result_length} SEO-friendly blog title ideas based on the topic or keyword provided in the {Blog_Titles} input field.
+ Each title should be catchy, include relevant keywords, and be suitable for a {result_length/5}-word blog post summary. 
+Ensure the titles align with the given topic.

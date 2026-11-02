@@ -17,3 +17,11 @@ Route::get('/his',function(){
 Route::get('/bot',function(){
     return view('bot.main');
 });
+
+Route::get('/basic',function(){
+    return view('Basic.main');
+})->name('Basic.main');
+
+Route::get('/ai',function(){
+    return view('AI.main');
+})->name('AI.main');

@@ -1,0 +1,107 @@
+https://claude.ai/
+https://console.anthropic.com/login
+https://docs.anthropic.com/en/api/overview
+
+
+Pusher/Socket.io for real-time chat and preview updates
+
+composer require pusher/pusher-php-server
+composer require predis/predis
+npm install laravel-echo pusher-js
+
+php artisan make:services ClaudeService
+php artisan make:policy ProjectPolicy
+
+
+1. composer require pusher/pusher-php-server
+Purpose: This command installs the official Pusher PHP SDK, which allows your Laravel backend to interact with the Pusher service.
+Pusher is a third-party service that provides real-time communication capabilities (e.g., broadcasting events, WebSockets) to your application.
+
+2. composer require predis/predis
+Purpose: This command installs the Predis library, a flexible and feature-complete Redis client for PHP.
+Redis is an in-memory data structure store often used as a message broker for real-time applications, including Laravel’s broadcasting system.
+
+3. npm install laravel-echo pusher-js
+Purpose: This command installs Laravel Echo and Pusher JS client-side libraries via npm, 
+which are used in your JavaScript frontend to listen to and handle real-time events broadcasted by Pusher.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    'landing_page' => "Create a modern, professional landing page for a tech startup. Include sections for product launch, key features,
+ SaaS offering, user testimonials, and conversion-focused call-to-actions.",
+
+    'portfolio' => "Create a modern, professional landing page for a portfolio website. Include sections for portfolio, showcase,
+ creative projects, designer bio, and photographer gallery.",
+
+    'blog' => "Create a modern, professional landing page for a blog website. Include sections for featured articles, latest news,
+ popular topics, content categories, and magazine-style layout.",
+
+    'ecommerce' => "Create a modern, professional landing page for an ecommerce website. Include sections for product listings,
+ shop categories, shopping cart, checkout, and customer reviews.",
+
+    'corporate' => "Create a modern, professional landing page for a corporate website. Include sections for business overview, 
+company services, team members, client testimonials, and contact form.",
+
+    'restaurant' => "Create a modern, professional landing page for a restaurant website. Include sections for food menu, 
+dining gallery, chef’s special, reservation form, and café ambiance.",
+
+    'agency' => "Create a modern, professional landing page for a digital agency. Include sections for creative services, case 
+studies, team introduction, agency showcase, and contact call-to-action.",
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Create a simple landing page  
+
+Create a modern, professional landing page for a tech startup.
+ 
+Website updated successfully!
+ 
+add testimonial section
+ 
+Website updated successfully!
+ 
+remove image from hero section
+ 
+Website updated successfully!
+ 
+remove testimonial section
+ 
+Website updated successfully!
+ 
+add testimonial section
+ 
+Website updated successfully!
+
+change footer background color as red
+

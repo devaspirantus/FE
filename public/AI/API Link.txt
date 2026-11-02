@@ -1,0 +1,110 @@
+https://chatgpt.com/
+https://platform.openai.com/
+https://platform.openai.com/usage
+https://platform.openai.com/settings/organization/billing/overview
+https://platform.openai.com/settings/organization/limits
+https://platform.openai.com/settings/organization/usage
+
+https://platform.openai.com/docs/guides/text
+
+
+------------------------------------------------------------ Install In Laravel --------------------------------------------------------
+composer require openai-php/laravel
+php artisan vendor:publish --provider="OpenAI\Laravel\ServiceProvider"
+
+  
+laravel
+sk-proj-gZZZ3JLFFaGAEva9nLHpbP_xhgeoc3zTI4Jk62qiKys14htsNeFKhBHMRk0EG0JP7elx0_tQSE1ZvAA
+
+
+==================== Check ChatGpt API in Postman =======================
+
+https://api.openai.com/v1/chat/completions
+
+Headers
+Content-Type = application/json
+Authorization = Bearer sk-proj-2pLGD_E.................
+
+
+
+
+Body>row
+{
+    "model": "gpt-4o-mini",
+    "store": true,
+    "messages": [
+      {"role": "user", "content": "what is the best ai application in 2025?"}
+    ]
+  }
+
+==================== Check ChatGpt API in Postman =======================
+1. Business Expert Prompt
+You are a highly experienced Business Expert with over 15 years in corporate strategy, marketing, and financial management. Your role is to provide expert advice and actionable insights to users on topics such as business planning, market analysis, financial forecasting, and team management. Respond in a professional tone, using clear and concise language. Always tailor your advice to the user's specific situation, ask clarifying questions if needed, and avoid generic responses. If the topic is outside your expertise (e.g., health or education), politely redirect the user to a relevant expert. Begin each response with a brief greeting (e.g., "Hello," or "Greetings,") and end with an offer to assist further.
+
+2. Health Expert Prompt
+You are a certified Health Expert with a background in medicine and wellness coaching, dedicated to promoting healthy lifestyles. Your role is to provide evidence-based advice on nutrition, exercise, mental health, and general well-being. Respond in a supportive and empathetic tone, ensuring all recommendations are safe and general (avoid diagnosing or prescribing). If a user mentions a serious medical condition, advise them to consult a doctor. Ask follow-up questions to understand their needs better, and conclude each response with an encouragement to maintain their health journey. Start with a warm greeting (e.g., "Hello there," or "Hi,") and end with an uplifting note.
+
+3. Education Expert Prompt
+You are an Education Expert with extensive experience in teaching and curriculum development, specializing in helping students and educators. Your role is to provide guidance on study techniques, educational resources, lesson planning, and student motivation. Respond in an encouraging and knowledgeable tone, adapting your advice to the user's educational level or goals. If the topic veers into non-educational areas (e.g., business or health), gently steer it back. Begin each response with an enthusiastic greeting (e.g., "Hello, learner!" or "Great to see you,") and end with an invitation to explore more educational topics.
+
+ 
+
+
+//////////////////// Image Generate Prompt /////////////////////////////
+Fantasy Landscape: "A breathtaking fantasy valley at sunset, with glowing bioluminescent plants,
+ towering crystal formations, and a serene river reflecting the vibrant sky. 
+The scene is bathed in warm orange and purple hues, with a distant dragon soaring gracefully, hyper-detailed, cinematic lighting, 4K resolution."
+
+Cyberpunk City: "A futuristic cyberpunk city at night, filled with neon signs in vibrant pink, blue, and green. 
+Skyscrapers with holographic advertisements tower over bustling streets, flying cars zoom above, and a light rain adds a reflective sheen. 
+Ultra-realistic, moody atmosphere, 8K detail."
+
+Steampunk Inventor: "A steampunk inventor in a cluttered workshop, wearing a leather apron and goggles, 
+surrounded by brass gears, steam-powered machines, and glowing vials. 
+The inventor holds a intricate mechanical bird, with soft sunlight streaming through a large window. 
+Vintage sepia tones, highly detailed, photorealistic."
+
+Surreal Dreamscape: "A surreal dreamscape where giant clocks melt over floating islands in a pastel-colored sky. 
+Fish swim through the air, and a lone figure in a flowing robe stands on a glass bridge. 
+Ethereal lighting, vibrant textures, Salvador Dalí-inspired, ultra-sharp."
+
+Medieval Knight: "A medieval knight in ornate silver armor, standing in a misty forest at dawn. 
+The knight holds a glowing sword, with intricate engravings visible. 
+A loyal horse stands in the background, and soft rays of light pierce through the trees. Epic, photorealistic, cinematic."
+
+Underwater City: "An underwater city built from coral and crystal, illuminated by glowing jellyfish-like lanterns. 
+Merfolk swim gracefully between domed structures, and colorful marine life thrives around. 
+The scene is vibrant, with deep blues and greens, hyper-detailed, National Geographic style."
+
+Post-Apocalyptic Survivor: "A rugged post-apocalyptic survivor in tattered clothing, standing atop a ruined skyscraper overlooking a deserted city reclaimed by nature. 
+Vines and trees grow through cracked concrete, with a stormy sky in the background. Gritty, cinematic, ultra-realistic."
+
+Magical Library: "An enchanted library with towering bookshelves that stretch into the clouds, floating books, and glowing runes etched into the walls. 
+A young wizard in a starry robe reads at a wooden desk, surrounded by sparkling motes of light. Warm, cozy, Studio Ghibli-inspired, 4K."
+
+Alien Planet: "An alien planet with two suns setting over a crimson desert, dotted with bizarre, spiky plants and glowing rocks. 
+A sleek, futuristic rover explores the terrain, leaving faint tracks. The sky is filled with swirling galaxies, hyper-detailed, sci-fi aesthetic."
+
+Victorian Masquerade: "A lavish Victorian masquerade ball in a grand ballroom, with guests in elaborate masks and gowns. 
+Chandeliers cast golden light, and a string quartet plays in the background.
+ The scene is opulent, with rich reds and golds, photorealistic, Bridgerton-inspired."
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
