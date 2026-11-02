@@ -25,3 +25,7 @@ Route::get('/basic',function(){
 Route::get('/ai',function(){
     return view('AI.main');
 })->name('AI.main');
+
+Route::get('/ai/dash',function(){
+    return view('AI.dash');
+})->name('AI.dash');
