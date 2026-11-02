@@ -19,8 +19,12 @@ Route::get('/bot',function(){
 });
 
 Route::get('/basic',function(){
-    return view('Basic.main');
-})->name('Basic.main');
+    return view('basic.main');
+});
+
+Route::get('/basix',function(){
+    return view('basix.main');
+})->name('basix.main');
 
 Route::get('/ai',function(){
     return view('AI.main');

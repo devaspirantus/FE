@@ -595,8 +595,8 @@
                             <div class="block-text">
                                 <a href="index.html" class="logo-link mb-4">
                                     <div class="logo-wrap">
-                                        <img class="logo-img logo-light" src="{{asset('AI/frontend/images/logo.png')}}" srcset="{{asset('AI/frontend/images/logo2x.png')}} 2x" alt="">
-                                        <img class="logo-img logo-dark" src="{{asset('AI/frontend/images/logo-dark.png')}}" srcset="{{asset('AI/frontend/images/logo-dark2x.png')}} 2x" alt="">
+                                        <img class="logo-img logo-light" src="{{asset('AI/dash/images/logo.png')}}" srcset="{{asset('AI/dash/images/logo2x.png')}} 2x" alt="">
+                                        <img class="logo-img logo-dark" src="{{asset('AI/dash/images/logo-dark.png')}}" srcset="{{asset('AI/dash/images/logo-dark2x.png')}} 2x" alt="">
                                     </div>
                                 </a>
                                 <h4 class="title">Save time. Get inspired.</h4>
@@ -609,8 +609,8 @@
             </div><!-- .section -->
         </footer>
     </div>
-    <script src="{{asset('AI/frontend/assets/js/bundle.js?v1.5.0')}}"></script>
-    <script src="{{asset('AI/frontend/assets/js/scripts.js?v1.5.0')}}"></script>
+    <script src="{{asset('AI/dash/assets/js/bundle.js')}}?v1.5.0"></script>
+    <script src="{{asset('AI/dash/assets/js/scripts.js')}}?v1.5.0"></script>
 </body>
 
 </html>

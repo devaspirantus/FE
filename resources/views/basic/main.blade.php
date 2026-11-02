@@ -2,7 +2,6 @@
 <html lang="en">
 
     <head>
-
         <meta charset="utf-8" />
         <title>Dashboard | Tapeli - Responsive Admin Dashboard Template</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -11,13 +10,13 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
 
         <!-- App favicon -->
-        <link rel="shortcut icon" href="assets/images/favicon.ico">
+        <link rel="shortcut icon" href="{{ asset('basic/lonyo/assets/images/favicon.ico') }}">
 
         <!-- App css -->
-        <link href="assets/css/app.min.css" rel="stylesheet" type="text/css" id="app-style" />
+        <link href="{{ asset('basic/lonyo/assets/css/app.min.css') }}" rel="stylesheet" type="text/css" id="app-style" />
 
         <!-- Icons -->
-        <link href="assets/css/icons.min.css" rel="stylesheet" type="text/css" />
+        <link href="https://cdn.jsdelivr.net/npm/@mdi/font@7.4.47/css/materialdesignicons.min.css" rel="stylesheet" type="text/css" />
 
     </head>
 
