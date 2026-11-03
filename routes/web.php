@@ -14,13 +14,13 @@ Route::get('/his',function(){
     return view('his.main');
 });
 
-Route::get('/bot',function(){
+Route::get('/bots',function(){
     return view('bot.main');
-});
+})->name('bot.main');
 
-Route::get('/basic',function(){
-    return view('basic.main');
-});
+Route::get('/builder',function(){
+    return view('builder.main');
+})->name('builder.main');
 
 Route::get('/basix',function(){
     return view('basix.main');
