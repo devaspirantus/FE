@@ -26,6 +26,10 @@ Route::get('/basix',function(){
     return view('basix.main');
 })->name('basix.main');
 
+Route::get('/basix/dash',function(){
+    return view('basix.dash');
+})->name('basix.dash');
+
 Route::get('/ai',function(){
     return view('AI.main');
 })->name('AI.main');
